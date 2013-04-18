@@ -135,6 +135,11 @@ a {
 Full-Width Styles
 *******************************************************************************/
 
+.big_dot {
+  display: inline;
+  font-size: 25px;
+  position: absolute;
+}
 .blue_title {
   color: #1fb2de;
   font-size: 24px;
@@ -269,11 +274,12 @@ Full-Width Styles
   display: inline;
   float: right;
   margin-top: 70px;
+  position: relative;
 }
 
 #links a {
   margin-right: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 #second_row_container {
