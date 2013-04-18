@@ -149,6 +149,16 @@ Full-Width Styles
   background: #aed3e3;
 }
 
+.column h4 {
+  color: #2e6085;
+}
+
+.column p {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+}
+
 #content_wrap {
   background-color: white;
   width: 1020px;
