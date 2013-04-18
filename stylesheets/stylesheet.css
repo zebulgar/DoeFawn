@@ -35,10 +35,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-ol, ul {
-  list-style: none;
-}
-
 blockquote, q {
 }
 
@@ -280,6 +276,14 @@ Full-Width Styles
 #links a {
   margin-right: 20px;
   margin-left: 40px;
+}
+
+.product {
+  margin-bottom: 40px;
+}
+
+.product h4 {
+  color: #2c6085;
 }
 
 #second_row_container {
