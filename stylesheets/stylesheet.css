@@ -332,6 +332,16 @@ Full-Width Styles
   color: #2c6085;
 }
 
+.product li {
+  list-style-image: url(../images/bullet.png) !important;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.product ul {
+  list-style-image: url(../images/bullet.png) !important;
+}
+
 #second_row_container {
   text-align: center;
   background-image: url(../images/wavegrid.png);
