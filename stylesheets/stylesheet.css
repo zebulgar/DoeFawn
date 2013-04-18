@@ -130,11 +130,38 @@ a {
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
-
+.button {
+   border: none;
+   background: #63b8cd;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7ecbe4), to(#63b8cd));
+   background: -webkit-linear-gradient(top, #7ecbe4, #63b8cd);
+   background: -moz-linear-gradient(top, #7ecbe4, #63b8cd);
+   background: -ms-linear-gradient(top, #7ecbe4, #63b8cd);
+   background: -o-linear-gradient(top, #7ecbe4, #63b8cd);
+   padding: 5px 10px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   color: white;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #4ca3d9;
+   background: #4ca3d9;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #3583b8;
+   background: #3583b8;
+   }
 .big_dot {
   display: inline;
   font-size: 25px;
   position: absolute;
+  color: #1fb1e0;
 }
 .blue_title {
   color: #1fb2de;
@@ -148,10 +175,18 @@ Full-Width Styles
 
 .column {
   background: #aed3e3;
+  margin-top: 50px;
+}
+
+.column img {
+  border-radius: 70px;
+  margin-top: -40px;
 }
 
 .column h4 {
   color: #2e6085;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .column p {
@@ -191,6 +226,12 @@ Full-Width Styles
   box-shadow: 0px 3px 2px 0px rgba(204, 204, 204, 0.59);
 }
 
+.circle_shadow {
+  -moz-box-shadow: 0px 3px 2px 0px rgba(100, 100, 100, 0.59);
+  -webkit-box-shadow: 0px 3px 2px 0px rgba(100, 100, 100, 0.59);
+  box-shadow: 0px 3px 2px 0px rgba(100, 100, 100, 0.59);
+}
+
 .social {
   padding-left: 5%;
   padding-top: 15px;
@@ -221,6 +262,10 @@ Full-Width Styles
 }
 #logo {
   margin-right: 20px;
+}
+
+.logo_link {
+  text-decoration: none !important;
 }
 
 #project_title {
@@ -276,6 +321,7 @@ Full-Width Styles
 #links a {
   margin-right: 20px;
   margin-left: 40px;
+  color: #1fb1e0;
 }
 
 .product {
