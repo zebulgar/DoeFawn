@@ -135,12 +135,31 @@ a {
 Full-Width Styles
 *******************************************************************************/
 
+.blue_title {
+  color: #1fb2de;
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.column_container {
+  padding: 20px;
+}
+
+.column {
+  background: #aed3e3;
+}
 
 #content_wrap {
   background-color: white;
   width: 1020px;
   margin: 0 auto;
   margin-top: 0px;
+}
+#first_row {
+  margin-bottom: 80px;
+}
+#left_column_text {
+  width: 250px;
 }
 .outer {
   width: 100%;
@@ -190,6 +209,9 @@ Full-Width Styles
 
 #main_content {
   padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0px;
   background: white;
 }
 
@@ -212,6 +234,11 @@ Full-Width Styles
   margin-left: 20px;
 }
 
+#second_row_container {
+  text-align: center;
+  background-image: url(../images/wavegrid.png);
+  background-position: initial initial;
+}
 
 
 /*******************************************************************************
