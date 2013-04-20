@@ -40,40 +40,22 @@
           <!-- FIRST ROW -->
           <div class="row">
             <div class="span4">
-              <h2 class="blue_title">Bundles</h3>
+              <h2 class="blue_title">Checkout</h3>
             </div>
           </div>
 
-          <div class="row product">
-            <div class="span4">
-              <img src="images/first-bundle.png">
-            </div>
-            <div class="span6">
-              <h4>Just born: first bundle</h4>
-              <ul>
-                <li>WubbaNub Elephant: cute and useful baby pacifier with plush elephant </li>
-                <li>Ahava Softening Butter Salt Scrub:  scrub full of dead sea minerals to rejuvenate mommy’s </li>
-                <li>Trumpette Cheeritoes socks: bright and funky socks that will show off baby’s style  </li>
-              </ul>
-            </div>
-          </div>
 
-          <div class="row product" id="second_bundle">
-            <div class="span4">
-              <img src="images/second-bundle.png">
-            </div>
-            <div class="span6">
-              <h4>Playing and pawing: second bundle</h4>
-              <ul>
-                <li>Bright Starts Sensory Giraffe: see, hear and touch! A fun toy that helps baby develop</li>
-                <li>L'Occitane Almond Supple Skin Oil: hydrating with essential almond oil is sure to make mommy’s skin as soft as baby’s</li>
-                <li>THERA°PEARL Eye-ssential Mask: cold or warm. Headaches or puffy eyes. This luxurious (and non-toxic) eye mask will help mommy get through the long nights</li>
-              </ul>
-            </div>
-          </div>
 
-          <button type="button" class="checkout checkout_button" onClick="window.location='checkout.html' ">buy bundles</button>
+          <iframe src="https://docs.google.com/forms/d/1CW-lqrWd6XrjoGP9S15nvhF2ePUOoeP0xnjBJ9bXRYA/viewform?embedded=true" width="760" height="1050" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
+          <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr" method="post" class="checkout">
+            <input type="hidden" name="cmd" value="_xclick">
+            <input type="hidden" name="business" value="nanantharaman@mba2014.hbs.edu">
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="hidden" name="item_name" value="doe & fawn bundles">
+            <input type="hidden" name="amount" value="50.00">
+            <input type="image" src="images/checkout.png" border="0" name="submit" alt="Make payments with PayPal - it's fast, free and secure!">
+          </form>
         </section>
       </div>
 

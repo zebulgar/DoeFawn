@@ -157,6 +157,61 @@ Full-Width Styles
    border-top-color: #3583b8;
    background: #3583b8;
    }
+
+.button {
+   border: none;
+   background: #63b8cd;
+   background: -webkit-gradient(linear, left top, left bottom, from(#7ecbe4), to(#63b8cd));
+   background: -webkit-linear-gradient(top, #7ecbe4, #63b8cd);
+   background: -moz-linear-gradient(top, #7ecbe4, #63b8cd);
+   background: -ms-linear-gradient(top, #7ecbe4, #63b8cd);
+   background: -o-linear-gradient(top, #7ecbe4, #63b8cd);
+   padding: 5px 10px;
+   color: white;
+   font-size: 14px;
+   font-family: Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #4ca3d9;
+   background: #4ca3d9;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #3583b8;
+   background: #3583b8;
+   }
+.checkout {
+  margin-left: 200px;
+  margin-bottom: 40px;
+}
+.checkout_button {
+   border: none;
+   background: #ead67f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#f5e7a6), to(#ead67f));
+   background: -webkit-linear-gradient(top, #f5e7a6, #ead67f);
+   background: -moz-linear-gradient(top, #f5e7a6, #ead67f);
+   background: -ms-linear-gradient(top, #f5e7a6, #ead67f);
+   background: -o-linear-gradient(top, #f5e7a6, #ead67f);
+   padding: 5px 10px;
+   color: #525250;
+   font-size: 14px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.checkout_button:hover {
+   border-top-color: #d6c271;
+   background: #d6c271;
+   color: #40403e;
+   }
+.checkout_button:active {
+   border-top-color: #a8985c;
+   background: #a8985c;
+   }
+
+
 .big_dot {
   display: inline;
   font-size: 25px;
@@ -224,12 +279,6 @@ Full-Width Styles
   -moz-box-shadow: 0px 3px 2px 0px rgba(204, 204, 204, 0.59);
   -webkit-box-shadow: 0px 3px 2px 0px rgba(204, 204, 204, 0.59);
   box-shadow: 0px 3px 2px 0px rgba(204, 204, 204, 0.59);
-}
-
-.circle_shadow {
-  -moz-box-shadow: 0px 3px 2px 0px rgba(100, 100, 100, 0.59);
-  -webkit-box-shadow: 0px 3px 2px 0px rgba(100, 100, 100, 0.59);
-  box-shadow: 0px 3px 2px 0px rgba(100, 100, 100, 0.59);
 }
 
 .social {
@@ -340,6 +389,10 @@ Full-Width Styles
 
 .product ul {
   list-style-image: url(../images/bullet.png) !important;
+}
+
+#second_bundle {
+  border-bottom: 1px dashed #e8d680;
 }
 
 #second_row_container {
