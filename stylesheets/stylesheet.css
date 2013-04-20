@@ -224,6 +224,10 @@ Full-Width Styles
   font-weight: 100;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .column_container {
   padding: 20px;
 }
